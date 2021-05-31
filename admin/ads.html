@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin - E-Commerce</title>
+
+    <!-- icon link header -->
+    <link rel="shortcut icon" href="../img/web/iconified/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../img/web/iconified/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/web/iconified/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/web/iconified/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/web/iconified/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/web/iconified/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/web/iconified/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/web/iconified/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/web/iconified/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/web/iconified/apple-touch-icon-180x180.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../vendor/uikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/style_admin.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../vendor/uikit/js/uikit.min.js"></script>
+    <script src="../vendor/uikit/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="../js/admin.js"></script>
+    <script src="../vendor/dataTable/DataTables-1.10.24/js/jquery.dataTables.min.js"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</head>
+
+<body>
+    <div class="uk-container-expan uk-padding-remove uk-margin-remove" id="dashboard" uk-height-viewport="expand: true">
+        <div class="uk-margin-remove uk-padding-remove" uk-grid>
+            <div class="uk-width-1-5@s uk-padding-remove uk-margin-remove uk-clearfix" id="menu">
+                <!-- menu Dekstop -->
+                <div class="uk-visible@s uk-width-1-1 uk-margin-remove uk-padding-remove uk-display-block"
+                    id="menuDekstop" uk-height-viewport>
+                    <div class="uk-padding" id="logo">
+                        <img class="uk-width-4-5 uk-margin-auto" src="../img/web/logo_grey_txt.png">
+                    </div>
+                    <div class="uk-width-1-1 uk-margin-remove uk-padding-remove" id="nav">
+                        <ul class="uk-nav uk-nav-default uk-padding-small">
+                            <li><a href="dashboard.html"><span class="iconify"
+                                        data-icon="ant-design:line-chart-outlined" data-inline="false"></span>
+                                    Dashboard</a></li>
+                            <li
+                                class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom uk-margin-small-top">
+                                User</li>
+                            <li><a href="user.html"><span class="iconify" data-icon="ant-design:user-outlined"
+                                        data-inline="false"></span> User</a></li>
+                            <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">Laporan
+                            </li>
+                            <li><a href="laporanPenjualan.html"><span class="iconify" data-icon="bx:bx-book-bookmark"
+                                        data-inline="false"></span> Laporan Penjualan</a></li>
+                            <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">Produk
+                            </li>
+                            <li><a href="produk.html"><span class="iconify" data-icon="gridicons:product"
+                                        data-inline="false"></span> Produk</a></li>
+                            <li><a href="kategori.html"><span class="iconify" data-icon="carbon:product"
+                                        data-inline="false"></span> Kategori</a></li>
+                            <li><a href="comment.html"><span class="iconify" data-icon="bx:bx-comment-error"
+                                        data-inline="false"></span> New Comment</a></li>
+                            <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">Promo
+                            </li>
+                            <li><a href="promo.html"><span class="iconify" data-icon="bx:bx-award"
+                                        data-inline="false"></span> Daftar Promo</a></li>
+                            <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">Website
+                            </li>
+                            <li><a href="setting.html"><span class="iconify" data-icon="ant-design:setting-outlined"
+                                        data-inline="false"></span> Setting</a></li>
+                            <li class="uk-active"><a href="ads.html"><span class="iconify" data-icon="cib:google-ads"
+                                        data-inline="false"></span> Ads</a></li>
+                            <li><a href="slideshow.html"><span class="iconify" data-icon="ri:slideshow-2-line"
+                                        data-inline="false"></span> Slideshow</a></li>
+                            <li><a href="pesan.html"><span class="iconify" data-icon="bi:chat-left-text"
+                                        data-inline="false"></span> Pesan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Menu Mobile -->
+                <div class="uk-hidden@s uk-padding-small uk-width-1-1 uk-display-block uk-background-mute"
+                    id="menuMobile">
+                    <button class="uk-button uk-margin-small-right" style="background: transparent;" type="button"
+                        uk-toggle="target: #offcanvas-reveal"><span uk-navbar-toggle-icon></span> <span
+                            class="uk-padding-small"><img style="height: 25px"
+                                src="../img/web/logo_grey_no_txt.png"></span></button>
+                    <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+                        <div class="uk-offcanvas-bar" style="background-color: white;" id="nav">
+
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                            <img class="uk-width-2-3 uk-margin-auto-left uk-margin-auto-right uk-margin-medium-bottom"
+                                src="../img/web/logo_grey_txt.png">
+                            <ul class="uk-nav uk-nav-default uk-padding-small">
+                                <li class="uk-active"><a href="#"><span class="iconify"
+                                            data-icon="ant-design:line-chart-outlined" data-inline="false"></span>
+                                        Dashboard</a></li>
+                                <li
+                                    class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom uk-margin-small-top">
+                                    User
+                                </li>
+                                <li><a href="#"><span class="iconify" data-icon="ant-design:user-outlined"
+                                            data-inline="false"></span>
+                                        User</a></li>
+                                <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">
+                                    Laporan</li>
+                                <li><a href="#"><span class="iconify" data-icon="bx:bx-book-bookmark"
+                                            data-inline="false"></span> Laporan
+                                        Penjualan</a></li>
+                                <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">
+                                    Produk</li>
+                                <li><a href="#"><span class="iconify" data-icon="gridicons:product"
+                                            data-inline="false"></span> Produk</a>
+                                </li>
+                                <li><a href="#"><span class="iconify" data-icon="carbon:product"
+                                            data-inline="false"></span> Kategori</a>
+                                </li>
+                                <li><a href="#"><span class="iconify" data-icon="bx:bx-comment-error"
+                                            data-inline="false"></span> New
+                                        Comment</a>
+                                </li>
+                                <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">
+                                    Promo</li>
+                                <li><a href="#"><span class="iconify" data-icon="bx:bx-award"
+                                            data-inline="false"></span> Daftar Promo</a>
+                                </li>
+                                <li class="label uk-padding-small uk-padding-remove-right uk-padding-remove-bottom ">
+                                    Website</li>
+                                <li><a href="#"><span class="iconify" data-icon="ant-design:setting-outlined"
+                                            data-inline="false"></span>
+                                        Setting</a></li>
+                                <li><a href="#"><span class="iconify" data-icon="cib:google-ads"
+                                            data-inline="false"></span>
+                                        Ads</a></li>
+                                <li><a href="#"><span class="iconify" data-icon="ri:slideshow-2-line"
+                                            data-inline="false"></span>
+                                        Slideshow</a></li>
+                                <li><a href="#"><span class="iconify" data-icon="bi:chat-left-text"
+                                            data-inline="false"></span> Pesan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-width-4-5@s uk-padding" id="content">
+                <div class="uk-width-1-1 uk-margin-remove uk-padding-remove uk-clearfix" id="header" uk-grid>
+                    <div class="uk-width-1-2 uk-float-left">
+                        <h2 class="uk-width-1-1 fun-poppins-semi-bold uk-padding-remove uk-margin-remove">Ads</h2>
+                        <p class="uk-width-1-1 fun-poppins uk-padding-remove uk-margin-remove">Fun Teknologi</p>
+                    </div>
+                    <div class="uk-width-1-2 uk-float-right">
+                        <div class="uk-float-right" id="pesan">
+                            <a class="uk-button fun-poppins uk-padding-remove uk-margin-remove" type="button" uk-grid>
+                                <span class="uk-padding-remove uk-margin-remove">
+                                    <div class="gambar_profil uk-border-circle uk-padding-remove uk-margin-remove"
+                                        style="background-image: url('../img/web/profil.jpg');"></div>
+                                </span>
+                                <div class="uk-padding-remove uk-margin-remove uk-text-center">
+                                    <span class="uk-padding-remove uk-margin-remove">Chelsie</span>
+                                    <hr class="uk-padding-remove uk-margin-remove">
+                                    <span class="uk-visible@s uk-padding-remove uk-margin-remove ket">Admin
+                                        Account</span>
+                                </div>
+                            </a>
+                            <div uk-dropdown="mode: click">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#">Setting Profil</a></li>
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-visible@s uk-float-right" id="pesan">
+                            <button class="uk-button" type="button"><span class="iconify" data-icon="entypo:mail"
+                                    data-inline="false"></span></button>
+                            <div class="uk-width-large" uk-dropdown="mode: click">
+                                <div class="uk-dropdown-grid uk-child-width-1-1">
+                                    <div class="body-pesan uk-width-1-1 uk-padding-remove uk-margin-small-bottom">
+                                        <h4 class="uk-padding-remove uk-margin-remove fun-poppins-semi-bold">Rizky</h4>
+                                        <p class="uk-margin-remove uk-padding-remove fun-poppins">Lorem ipsum dolor sit
+                                            amet, consectetur
+                                            adipiscing elit. Fusce id ex lacinia mauris hendrerit mollis eget in enim.
+                                            In
+                                            hac habitasse.</p>
+                                    </div>
+                                    <div class="body-pesan uk-width-1-1 uk-padding-remove uk-margin-small-bottom">
+                                        <h4 class="uk-padding-remove uk-margin-remove fun-poppins-semi-bold">Rizky</h4>
+                                        <p class="uk-margin-remove uk-padding-remove fun-poppins">Lorem ipsum dolor sit
+                                            amet, consectetur
+                                            adipiscing elit.
+                                            Fusce id ex lacinia mauris hendrerit mollis eget in enim. In
+                                            hac habitasse.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove" id="isi_content">
+                    <div class="uk-width-1-1 uk-padding-remove uk-margin-medium-top">
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <tr>
+                                    <td><img src="../img/web/slideshow1.png" style="width: 200px;"></td>
+                                    <td>
+                                        <h2 class="uk-text-bold">Dari Singa Udara</h2>
+                                        <p>17/02/2020 - 18/02/2021</p>
+                                    </td>
+                                    <td>
+                                        <a href="ads_edit.html" class="uk-button uk-button-small button-warning uk-border-rounded"><span class="iconify"
+                                                data-icon="clarity:pencil-solid" data-inline="false"></span></a>
+                                        <a href="ads_hapus.html" class="uk-button uk-button-small button-danger uk-border-rounded"><span class="iconify"
+                                                data-icon="bx:bxs-trash-alt" data-inline="false"></span></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="../img/web/slideshow1.png" style="width: 200px;"></td>
+                                    <td>
+                                        <h2 class="uk-text-bold">Dari Singa Udara</h2>
+                                        <p>17/02/2020 - 18/02/2021</p>
+                                    </td>
+                                    <td>
+                                        <a href="ads_edit.html" class="uk-button uk-button-small button-warning uk-border-rounded"><span
+                                                class="iconify" data-icon="clarity:pencil-solid" data-inline="false"></span></a>
+                                        <a href="ads_hapus.html" class="uk-button uk-button-small button-danger uk-border-rounded"><span
+                                                class="iconify" data-icon="bx:bxs-trash-alt" data-inline="false"></span></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-clearfix">
+                        <a href="ads_tambah.html" class="uk-button button-success uk-border-rounded"><span class="iconify"
+                                data-icon="akar-icons:plus" data-inline="false"></span> Tambah</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,865 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.white
+{
+    color:white !important;
+}
+.black
+{
+    color:black !important;
+}
+.link-black
+{
+    color: black !important;
+}
+.link-black:hover
+{
+    color: rgb(123, 123, 123) !important;
+}
+.bg-white
+{
+    background-color: white;
+}
+.bg-black
+{
+    background-color: black;
+}
+.fun-opacity-6
+{
+    opacity:0.6;
+}
+.fun-poppins-light
+{
+    font-family: poppins;
+    font-weight: 300;
+}
+.fun-poppins
+{
+    font-family: poppins;
+}
+.fun-poppins-semi-bold
+{
+    font-family: poppins;
+    font-weight: 600;
+}
+.fun-poppins-bold
+{
+    font-family: poppins;
+    font-weight: 800;
+}
+.fun-button-1
+{
+    background-color: #CFF1FF;
+    border: 2px solid #33B0E5 !important;
+    color: #33B0E5 !important;
+}
+.fun-button-1:hover
+{
+    background-color: #33B0E5;
+    border: 2px solid #33B0E5 !important;
+    color: #CFF1FF !important;
+}
+.fun-no-warp-text
+{
+    white-space: nowrap;
+}
+
+.diskon
+{
+    text-decoration: line-through;
+    color: rgb(182, 182, 182);
+}
+.harga
+{
+    font-weight: 600;
+}
+
+/* HOME */
+#header
+{
+    background-color: white;
+}
+#header #headerTop
+{
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 10px;
+}
+#header #headerTop .jadwal
+{
+    font-size: 10px;
+}
+#header #headerTop .label
+{
+    color: #8C8C8C;
+}
+#header #headerTop a
+{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+#header #headerTop a:hover
+{
+    color: rgb(104, 104, 247);
+}
+#header #headerTop .iconify
+{
+    font-size: 15px;
+}
+#header #logo img#logo-fun
+{
+    height: 55px;
+}
+#header #logo a#title_logo
+{
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    font-weight: 600;
+    color: #747474;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+#header #logo a#title_logo:hover
+{
+    color:black
+}
+#header #logo a#title_logo>span
+{
+    font-weight: 400;
+    font-size: 12px;
+}
+#header #menuDekstop #logo ul>li>a
+{
+    padding-top: 20px;
+    font-family: 'Open Sans';
+    text-transform: uppercase !important;
+    color: black;
+    opacity:0.2;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 900;
+    transition: all 0.5s ease;
+}
+#header #menuDekstop ul#kategori>li>a:hover
+{
+    color: white;
+    background-image: linear-gradient(to bottom right, #0156FF, #9AB9F6);
+    opacity: 1;
+}
+#header #menuDekstop ul#kategori>li>a svg
+{
+    font-size: 25px;
+}
+#header #menuDekstop .uk-navbar-right a
+{
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+    transition: all 0.5s ease;
+}
+#header #menuDekstop .uk-navbar-right a:hover
+{
+    color: rgb(0, 0, 0);
+}
+#header #menuDekstop .uk-navbar-right a svg
+{
+    font-size: 27px;
+}
+#header #menuDekstop .uk-navbar-right a span.uk-badge
+{
+    margin-left: -10px;
+    font-size: 10px;
+    min-width: 17px;
+    height: 17px;
+}
+#header #menuDekstop .uk-navbar-right .akun li
+{
+    margin-top: 5px;
+}
+#header #menuDekstop .uk-navbar-right .akun a
+{
+    font-size: 12px
+}
+#header hr.header
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 2px solid #CCCCCC;
+}
+#header #menuDekstop .uk-navbar-right>a
+{
+    color: grey;
+    font-size: 26px;
+    margin-right: 10px;
+}
+#header #menuMobile .uk-navbar-right a
+{
+    color: grey;
+    font-size: 26px;
+    margin-right: 5px;
+}
+/* home */
+#home #body #slideshow .uk-slideshow-item #body_slide
+{
+    top: 15%;
+    height: auto;
+}
+#home #body #slideshow .uk-slideshow-item #body_slide
+{
+    font-family: poppins;
+}
+#home #body #slideshow .uk-slideshow-item #body_slide .uk-float-left
+{
+    padding-left: 400px;
+}
+#home #body #slideshow .uk-slideshow-item #body_slide>div>h2
+{
+    font-size: 24;
+    font-weight: 900;
+}
+#home #body #new_rekomendasi #head_new_rekomendasi
+{
+    font-family: Poppins;
+    font-size: 13px;
+}
+#home #body #new_rekomendasi #head_new_rekomendasi span
+{
+    color: rgb(0, 0, 0);
+}
+#home #body #new_rekomendasi #head_new_rekomendasi span a
+{
+    color: rgb(0, 0, 0);
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items
+{
+    font-family: poppins;
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items .uk-card .uk-card-body>h6
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items p
+{
+    color:black;
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items #diskon
+{
+    text-decoration: line-through;
+    color: rgb(182, 182, 182);
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items #harga
+{
+    font-weight: 600;
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items a.uk-button
+{
+    font-weight: 600;
+}
+#home #body #new_rekomendasi #rekomendasi .uk-slider-items .background_rekomendasi
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodyProduk
+{
+    padding: 10px;
+}
+.bodyProduk>div
+{
+    color: black;
+    text-decoration: none;
+}
+.bodyProduk>div:hover div.produk
+{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 10px rgb(181, 181, 181);
+}
+.bodyProduk a
+{
+    text-decoration: none;
+    color: black;
+}
+.bodyProduk a:hover
+{
+    text-decoration: none;
+    color: blue;
+}
+.bodyProduk div.produk
+{
+    border: 1px solid #D7D7D7;
+    padding: 5px;
+    transition: all 0.4s ease;
+    background-color: white;
+}
+.bodyProduk div.produk .gambar_produk_promo
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bodyProduk div.produk .gambar_produk_baru
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bodyProduk div.produk .gambar_produk
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bodyProduk div.produk .viewcart_produk
+{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    height: 0;
+    overflow: hidden;
+    animation: all 0.5s ease;
+    font-size: 15px;
+}
+.bodyProduk>div:hover .viewcart_produk
+{
+    height: auto;
+}
+.bodyProduk div.produk #discount-gambar
+{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.bodyProduk div.produk #add-wishlist
+{
+    margin: 5px 5px 0px 0px;
+    background-color: rgba(255, 255, 255, 100);
+    height:25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.bodyProduk div.produk h6
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+.bodyProduk div.produk #diskon
+{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: rgb(182, 182, 182);
+}
+.bodyProduk div.produk #harga
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+#home #body #flashsale .head-flashsale .tambah-height
+{
+    height: 100px;
+}
+#home #body #flashsale .body-flashsale
+{
+    margin-top: -100px;
+    padding-bottom: 100px;
+    height: 200px;
+}
+#home #body #flashsale .body-flashsale>div
+{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#home #body #flashsale .body-flashsale>div::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+#home #body #flashsale .head-flashsale>h5#tgl_flashsale
+{
+    font-family: 'Open Sans';
+    letter-spacing: 4px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#home #body #flashsale .head-flashsale>a
+{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+#home #body #flashsale .head-flashsale>a.uk-button-text::before
+{
+    border-bottom: 1px solid white !important;
+}
+#home #body .promo .head_promo a
+{
+    font-size: 22;
+    font-weight: 600;
+}
+#home #body .head-promo
+{
+    position: relative;
+}
+#home #body .head-promo>div
+{
+    background-image: linear-gradient(to bottom left, #C4C4C4, #FFF);
+}
+#home #body .head-promo>div>div
+{
+    padding-top: 100px;
+}
+#home #body .body_promo .head-promo img
+{
+    bottom: 0;
+    top: auto;
+}
+
+#produk_detail #body #body_top #deskripsi h4
+{
+    font-size: 24px;
+}
+#produk_detail #body #body_top #deskripsi #share a
+{
+    color: #999999;
+    text-decoration: none;
+    font-size: 20px;
+}
+#produk_detail #body #body_top #deskripsi #share a:hover
+{
+    color: #4e4e4e;
+}
+#produk_detail #body #body_mid #tab li a
+{
+    font-weight: 600;
+    font-family: poppins;
+}
+#produk_detail #body #body_mid #tab li a.uk-active
+{
+    color: #33B0E5 !important;
+}
+#produk_detail #body #body_mid #deskripsi_produk
+{
+    font-family: poppins;
+    font-size: 12px;
+}
+#produk_detail #body #body_mid #deskripsi_produk p
+{
+    padding:0;
+    margin:0;
+}
+#produk_detail #body #body_mid #deskripsi_produk .stars>form label.star
+{
+    font-size: 25px;
+}
+#produk_detail #body #body_mid #deskripsi_produk #form_comment
+{
+    border: 1px solid #D8E1F3;
+}
+#produk_detail #body #body_mid #deskripsi_produk .gambar_comment
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#produk_detail #body #body_mid #deskripsi_produk #body_comment
+{
+    border: 1px solid #D8E1F3;
+}
+#produk_detail #body #body_mid #deskripsi_produk #body_comment #body_comment_body ul.uk-subnav-pill>*>:first-child
+{
+    background-color: #EDEDED !important;
+    color: #33B0E5 !important;
+}
+
+#produk_search #body .uk-float-left div#filter
+{
+    background-color: #F2F2F2;
+}
+#produk_search #body .uk-float-right div#sortBy
+{
+    background-color: #ececec;
+}
+#produk_search #body .uk-float-right div#sortBy .uk-dropdown ul li a
+{
+    color: black;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 12px;
+}
+#produk_search #body .uk-float-right div#sortBy .uk-child-width-1-3>div>a
+{
+    color: black !important;
+    text-decoration: none;
+}
+#produk_search #body .uk-float-right div#sortBy .uk-dropdown ul li a:hover
+{
+    background-color: #D8E1F3;
+}
+
+#wishlist #body #body_head
+{
+    border-bottom: 2px solid #D6D6D6 !important;
+    font-family: poppins !important;
+    font-weight: 600 !important;
+}
+
+#cart #body #body_head
+{
+    border-bottom: 2px solid #D6D6D6 !important;
+    font-family: poppins !important;
+    font-weight: 600 !important;
+}
+#cart #body #body_body #cart_produk>div
+{
+    border: 1px solid #D2D2D2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#cart #body #body_body #cart_produk #cart_produk_body>div
+{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail h6
+{
+    font-size: 12;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail span
+{
+    font-size: 12px;
+    color: #A3A3A3;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail table
+{
+    font-size: 12px;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail table tr td
+{
+    padding: 0px 5px 5px 0px;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail table #label
+{
+    color: #A3A3A3;
+    font-family: poppins;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail table #harga
+{
+    color: black;
+    font-family: poppins;
+    padding-left: 10px;
+}
+#cart #body #body_body #cart_produk #cart_produk_body #cart_produk_body_detail table #diskon
+{
+    color: #33B0E5;
+    font-size: 12px;
+}
+#cart #body #body_body #cart_produk_body .delete>a
+{
+    background-color: #FF5656;
+    padding-top: 50%;
+    line-height: 125px;
+    color: white;
+    transition: all 0.3s ease;
+}
+#cart #body #body_body #cart_produk_body .delete>a:hover
+{
+    background-color: #ca2727;
+}
+
+#body_produk_checkout
+{
+    border: 1px solid #D2D2D2;
+    border-radius: 20px;
+    font-family: poppins;
+}
+#body_produk_checkout #gambar_produk_checkout
+{
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#body_produk_checkout #checkout_produk_body_detail a
+{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+#body_produk_checkout #checkout_produk_body_detail a:hover
+{
+    color: rgb(56, 56, 255);
+}
+#body_produk_checkout span
+{
+    color: #666666;
+}
+#body_produk_checkout #harga
+{
+    color: black;
+}
+#body_produk_checkout #harga span#diskon
+{
+    font-size: 10px;
+    color: #33B0E5;
+}
+#body_produk_checkout #harga span#harga_diskon
+{
+    text-decoration: line-through;
+    color: grey;
+}
+#body_produk_checkout #bayar #label
+{
+    color: #989898;
+}
+#body_produk_checkout #bayar #virtual-account
+{
+    color: black;
+    font-size: 25px;
+}
+
+#profil #body #body_profil #foto_profil
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#profil #body #body_profil #menu #nama h5
+{
+    font-family: poppins;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+#profil #body #body_profil #menu #nama p
+{
+    font-family: poppins;
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 12px;
+}
+#profil #body #body_profil #menu #nav li a
+{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    color: black;
+    transition: all 0.5s ease;
+}
+#profil #body #body_profil #menu #nav li a:hover
+{
+    color: rgb(6, 125, 159);
+}
+#profil #body #body_profil #menu #nav li.uk-active a
+{
+    color: #4A67CB !important;
+}
+#profil #body #body_profil #profil_content
+{
+    border-left: 1px solid #000000;
+}
+#profil #body #body_profil #profil_content #sourcecode .produk .gambar_produk_profil
+{
+    display: block;
+    height: 150px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#profil #body_produk_checkout
+{
+    border: 1px solid #D2D2D2;
+    border-radius: 14px;
+    font-family: poppins;
+}
+
+#profil #body_produk_checkout #status.keranjang
+{
+    color: rgb(214, 6, 6);
+}
+#profil #body_produk_checkout #status.pending
+{
+    color: rgb(214, 214, 6);
+}
+#profil #body_produk_checkout #status.success
+{
+    color: rgb(10, 165, 1);
+}
+#profil #body_produk_checkout #gambar_produk_checkout
+{
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#profil #body_produk_checkout #checkout_produk_body_detail a
+{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+#profil #body_produk_checkout #checkout_produk_body_detail a:hover
+{
+    color: rgb(56, 56, 255);
+}
+#profil #body_produk_checkout span
+{
+    font-size: 12px;
+    color: #666666;
+}
+#profil #body_produk_checkout #harga
+{
+    color: black;
+}
+#profil #body_produk_checkout #harga span#diskon
+{
+    font-size: 10px;
+    color: #33B0E5;
+}
+#profil #body_produk_checkout #harga span#harga_diskon
+{
+    text-decoration: line-through;
+    color: grey;
+}
+#profil #body_produk_checkout #bayar #label
+{
+    color: #989898;
+}
+#profil #body_produk_checkout #bayar #virtual-account
+{
+    color: black;
+    font-size: 25px;
+}
+
+#footer ul li a
+{
+    color: white;
+    text-transform:capitalize;
+}
+#footer ul li a::before
+{
+    border-color: white;
+}
+
+.menuMobileBottom
+{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: 2px solid #CCCCCC;
+}
+.menuMobileBottom a
+{
+    color: #656565;
+    text-decoration: none;
+}
+.menuMobileBottom a span
+{
+    font-size: 20px !important;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #header #headerTop .uk-position-center
+    {
+        visibility: hidden;
+    }
+    #home #body #slideshow .uk-slideshow-item #body_slide
+    {
+        top: 15%;
+    }
+    #home #body .head-promo>div>div
+    {
+        padding-top: 70px;
+    }
+    
+}
+@media only screen and (max-width: 960px) {
+    .bodyProduk div.produk .viewcart_produk
+    {
+        visibility: hidden;
+    }
+    #header #headerTop .uk-position-center-left
+    {
+        visibility: hidden;
+    }
+    #home #header #headerTop .uk-position-center
+    {
+        visibility: hidden;
+    }
+    #home #body #slideshow .uk-slideshow-item #body_slide
+    {
+        top: 15%;
+    }
+    #home #body .head-promo>div>div
+    {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .bodyProduk div.produk .viewcart_produk
+    {
+        visibility: hidden;
+    }
+    #header #headerTop .uk-position-center-left
+    {
+        visibility: hidden;
+    }
+    #home #header #headerTop .uk-position-center
+    {
+        visibility: hidden;
+    }
+    #home #body #slideshow .uk-slideshow-item #body_slide
+    {
+        top: 0%;
+    }
+    #home #body .head-promo img
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #home #body .head-promo>div>div
+    {
+        padding-top: 0px;
+    }
+
+    #checkout #body #body_body #body_produk_checkout #checkout_produk_body_detail #nama a
+    {
+        font-size: 15px;
+    }
+    #checkout #body #body_body #body_produk_checkout #checkout_produk_body_detail #nama span
+    {
+        font-size: 12px;
+    }
+    #checkout #body #body_body #body_produk_checkout .uk-text-small
+    {
+        font-size: 12px;
+    }
+    #profil #body #body_profil #profil_content
+    {
+        border-left: 0px solid #000000;
+    }
+    #profil #body #body_profil #menu #nav li a
+    {
+        font-size: 14px;
+        font-family: poppins;
+        font-weight: 400;
+        color: black;
+        transition: all 0.5s ease;
+    }
+}

@@ -1,0 +1,1037 @@
+<!-- 
+                        LIST COMMENT
+HEADER                      BODY                    FOOTER
+- icon link header          - slideshow dekstop     
+- UIkit CSS                 - slideshow mobile
+- Google Font               - flashsale
+- Style CSS                 - promo
+- icon CSS
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <!-- icon link header -->
+    <link rel="shortcut icon" href="img/web/iconified/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/web/iconified/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/web/iconified/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/web/iconified/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/web/iconified/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/web/iconified/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/web/iconified/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/web/iconified/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/web/iconified/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/web/iconified/apple-touch-icon-180x180.png" />
+
+    <!-- UIkit CSS -->
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_jqueryGallery.css">
+    <link rel="stylesheet" href="css/rating.css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/photoGallery/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="vendor/ratingme/rating.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="uk-container-expand uk-padding-remove" id="produk_search">
+        <div class="uk-margin-auto-right uk-margin-auto-left">
+            <div class="uk-padding-remove uk-margin-remove"
+                uk-sticky="animation: uk-animation-slide-top; sel-target: #header; cls-active: uk-navbar-sticky black; cls-inactive: uk-navbar-transparent;"
+                id="header">
+                <div class="uk-padding-small uk-background-secondary" id="headerTop">
+                    <div class="uk-padding uk-padding-remove-vertical">
+                        <div class="uk-width-1-1 uk-inline">
+                            <span class="uk-position-center-left"><span class="label">Mon-Thu: </span>9:00 AM - 5:30 PM
+                                <i class="fas fa-chevron-down"></i></span>
+                            <div class="uk-background-secondary white jadwal uk-padding-small" uk-dropdown>
+                                <table>
+                                    <tr>
+                                        <td class="label">Mon-Thu:</td>
+                                        <td>9:00 AM - 5:30 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">Fri-Sat:</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <span class="uk-position-center">Kantor : Jalan Petek Nomer 18, Kelurahan Purwosari,
+                                Kecamatan Semarang Timur.</span>
+                            <span class="uk-position-center-right">Kontak : (+62) 851-5613-5202 &emsp; <a href="#"><span
+                                        class="iconify" data-icon="clarity:email-solid" data-inline="false"></span></a>
+                                &ensp; <a href="#"><span class="iconify" data-icon="carbon:logo-facebook"
+                                        data-inline="false"></span></a> &ensp; <a href="#"><span class="iconify"
+                                        data-icon="ant-design:instagram-filled" data-inline="false"></span></a></span>
+                        </div>
+                    </div>
+                </div>
+                <nav class="uk-margin-remove uk-padding-remove" id="menuDekstop">
+                    <div class="uk-padding uk-padding-remove-vertical" uk-navbar>
+
+                        <div class="uk-navbar-left" id="logo">
+                            <img class="uk-visible@s uk-padding-small uk-padding-remove-horizontal uk-padding-remove-bottom uk-margin-remove"
+                                src="img/web/logo_grey_no_txt.png" alt="Logo Fun Technology" id="logo-fun" />
+                            <a href="http://localhost/ecommerce_fun/" id="title_logo"
+                                class="uk-visible@s uk-padding-small uk-padding-remove-horizontal uk-padding-remove-bottom uk-margin-small-left uk-margin-remove-vertical">
+                                FUN<br>TEKNOLOGI<br><span>Your IT Solution</span></a>
+                            <ul class="uk-visible@m uk-child-width-1-5@l uk-width-large@l uk-navbar-nav uk-padding-remove uk-margin-small-left"
+                                id="kategori">
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:android-filled"
+                                            data-inline="false"></span><br>Android</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:apple-filled" data-inline="false"></span><br>iOS</a>
+                                </li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:windows-filled"
+                                            data-inline="false"></span><br>Windows</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block" href="#"><span class="iconify" data-icon="whh:website"
+                                            data-inline="false"></span><br>Web</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block" href="#"><span class="iconify" data-icon="bi:check-all"
+                                            data-inline="false"></span><br>All</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="uk-visible@s uk-margin-medium-right uk-navbar-right">
+                            <a href="#kategori_pad" class="uk-visible@s uk-hidden@m" uk-toggle><span class="iconify"
+                                    data-icon="codicon:list-selection" data-inline="false"></span></a>
+
+
+                            <div class="uk-margin">
+                                <form class="uk-search uk-search-default uk-width-medium@m">
+                                    <a href="" uk-search-icon></a>
+                                    <input class="uk-search-input" type="search" placeholder="Search">
+                                </form>
+                            </div>
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span
+                                        class="iconify" data-icon="akar-icons:heart"
+                                        data-inline="false"></span><sup><span class="uk-badge">1</span></sup></a></span>
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span
+                                        class="iconify" data-icon="jam:shopping-cart"
+                                        data-inline="false"></span><sup><span class="uk-badge">1</span></sup></a></span>
+                            <!-- <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span class="iconify" data-icon="ic:round-login" data-inline="false"></span></a></span> -->
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"
+                                    type="button"><img class="uk-border-pill" src="img/pelanggan/avatar_default.jpg"
+                                        width="27px" height="27px" alt="Border pill"></a></span>
+                            <div class="uk-padding-small akun" uk-dropdown>
+                                <h5 class="uk-margin-remove uk-text-bold">Chelsi Island</h5>
+                                <span class="uk-text-small">c.island@gmail.com</span>
+                                <hr class="uk-padding-remove uk-margin-small-top uk-margin-remove-bottom">
+                                <ul class="uk-nav uk-dropdown-nav uk-padding-remove">
+                                    <li class="uk-active"><a class="uk-padding-remove" href="#">Edit Profile</a></li>
+                                    <li><a class="uk-padding-remove" href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="kategori_pad" uk-offcanvas>
+                        <div class="uk-offcanvas-bar">
+
+                            <ul class="uk-nav uk-nav-default">
+
+                                <li><a class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:android-filled" data-inline="false"></span>
+                                        Android</a></li>
+                                <li><a class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:apple-filled" data-inline="false"></span>
+                                        iOS</a></li>
+                                <li><a class="uk-display-block" href="#"><span class="iconify"
+                                            data-icon="ant-design:windows-filled" data-inline="false"></span>
+                                        Windows</a></li>
+                                <li><a class="uk-display-block" href="#"><span class="iconify" data-icon="whh:website"
+                                            data-inline="false"></span> Web</a></li>
+                                <li><a class="uk-display-block" href="#"><span class="iconify" data-icon="bi:check-all"
+                                            data-inline="false"></span> All</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <nav class="uk-hidden@s" id="menuMobile">
+                    <div class="uk-navbar-left uk-padding-small">
+                        <div class="uk-navbar-left" id="logo">
+                            <a href="http://localhost/ecommerce_fun/"><img src="img/web/logo_grey_no_txt.png"
+                                    alt="Logo Fun Technology" id="logo-fun"></a>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <form class="uk-search uk-search-default">
+                                <a href="" uk-search-icon></a>
+                                <input class="uk-search-input" type="search" placeholder="Search">
+                            </form>
+                            <span>
+                                <a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right">
+                                    <span class="iconify" data-icon="akar-icons:heart" data-inline="false"></span>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right">
+                                    <span class="iconify" data-icon="jam:shopping-cart" data-inline="false"></span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </nav>
+                <hr class="header uk-padding-remove uk-margin-remove-top uk-margin-remove-bottom">
+            </div>
+            <div class="uk-padding-large uk-padding-remove-bottom uk-clearfix" id="body">
+                <div class="uk-visible@l uk-width-1-6 uk-float-left uk-padding-remove uk-margin-remove">
+                    <div class="uk-width-1-1 uk-margin-medium-top">
+                        <a href="#" class="uk-width-1-1 uk-padding-remove-horizontal uk-text-center fun-poppins-semi-bold uk-button uk-button-text"><span class="iconify" data-icon="dashicons:arrow-left-alt2" data-inline="false"></span> back</a>
+                        <div class="uk-width-1-1 uk-text-center uk-padding-small uk-padding-remove-horizontal" id="filter">
+                            <h5 class="fun-poppins-semi-bold">Filters</h5>
+                            <a href="#" class="uk-button uk-button-text">Clear Filter</a>
+                        </div>
+                        <div class="uk-width-1-1 uk-display-block">
+                            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true;">
+                                <li class="uk-parent uk-open">
+                                    <a class="fun-poppins-semi-bold link-black" href="#" aria-expanded="true">Category</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#" class="link-black">Android</a></li>
+                                        <li><a href="#" class="link-black">iOS</a></li>
+                                        <li><a href="#" class="link-black">Website</a></li>
+                                        <li><a href="#" class="link-black">Desktop</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent uk-open">
+                                    <a href="#" class="fun-poppins-semi-bold link-black"  aria-expanded="true">Price</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="#" class="link-black">$0.00 - $1,000.00</a></li>
+                                        <li><a href="#" class="link-black">$1,000.00 - $2,000.00</a></li>
+                                        <li><a href="#" class="link-black">$2,000.00 - $3,000.00</a></li>
+                                        <li><a href="#" class="link-black">$3,000.00 - $4,000.00</a></li>
+                                        <li><a href="#" class="link-black">$4,000.00 - $5,000.00</a></li>
+                                        <li><a href="#" class="link-black">$5,000.00 - $6,000.00</a></li>
+                                        <li><a href="#" class="link-black">$6,000.00 - $7,000.00</a></li>
+                                        <li><a href="#" class="link-black">$7,000.00 And Above</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-1 uk-width-5-6@l uk-float-right uk-padding-remove uk-margin-remove">
+                    <!-- ShordBy Website -->
+                    <div class="uk-visible@l uk-width-1-1 uk-padding-small uk-margin-remove" id="sortBy">
+                        <span class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-left">13 Items</span>
+                        <span class="uk-padding uk-padding-remove-vertical">
+                            Sort By 
+                            <button class="uk-button uk-button-default uk-button-small uk-margin-small-left" type="button">Name A-Z <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></button>
+                            <div class="uk-padding-remove" uk-dropdown="mode: click">
+                                <ul class="uk-list uk-list-divider uk-padding-remove">
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block" href="#">Terbaru</a></li>
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block" href="#">Terlama</a></li>
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block" href="#">Name A-Z</a></li>
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block" href="#">Name Z-A</a></li>
+                                </ul>
+                            </div>
+                        </span>
+                        <span class="uk-padding uk-padding-remove-vertical">
+                            Show
+                            <button class="uk-button uk-button-default uk-button-small uk-margin-small-left uk-margin-large-right" type="button">10 <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></button>
+                            <div class="uk-padding-remove" uk-dropdown="mode: click">
+                                <ul class="uk-list uk-list-divider uk-padding-remove">
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block"
+                                            href="#">50</a></li>
+                                    <li class="uk-padding-remove uk-margin-remove"><a class="uk-padding-small uk-display-block"
+                                            href="#">100</a></li>
+                                </ul>
+                            </div>
+                        </span>
+                    </div>
+                    <!-- ShortBy Mobile -->
+                    <div class="uk-hidden@l uk-width-1-1 uk-padding-remnove uk-margin-remove" id="sortBy">
+                        <div class="uk-child-width-1-3 uk-margin-remove uk-padding-remove" uk-grid>
+                            <div class="uk-padding-remove uk-margin-remove uk-text-center" style="border-right: 2px solid white">
+                                <a href="#" class="uk-display-block uk-padding-small">Termurah</a>
+                            </div>
+                            <div class="uk-padding-remove uk-margin-remove uk-text-center" style="border-right: 2px solid white">
+                                <a href="#" class="uk-display-block uk-padding-small">Terbaru</a>
+                            </div>
+                            <div class="uk-padding-remove uk-margin-remove uk-text-center" style="border-right: 2px solid white;">
+                                <a href="#" class="uk-display-block uk-padding-small">Terlaris</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-display-block uk-clearfix">
+                        <div class="uk-child-width-1-2 uk-child-width-1-5@s uk-padding-remove uk-margin-small-top">
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-float-left bodyProduk">
+                                <div>
+                                    <div class="produk uk-border-rounded">
+                                        <div class="gambar_produk_promo uk-border-rounded uk-clearfix"
+                                            style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                            <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                            <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                            </a>
+                                            <span class="viewcart_produk"></span>
+                                            <span
+                                                class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                </a>
+                                                <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                    <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                            <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN Cashier</h6>
+                                            <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                <span id="harga">Rp.200.000</span>
+                                            </div>
+                                            <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-visible@l uk-width-1-1 uk-padding-small uk-display-block uk-clearfix">
+                        <ul class="uk-pagination uk-flex-center" uk-margin>
+                            <li><a href="#"><span uk-pagination-previous></span></a></li>
+                            <li><a href="#">1</a></li>
+                            <li class="uk-disabled"><span>...</span></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li class="uk-active"><span>7</span></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#"><span uk-pagination-next></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="newproduk_allproduk uk-padding-large uk-padding-remove-top">
+                <div id="new" class="uk-margin-medium-top uk-clearfix">
+                    <div class="uk-width-1-1 uk-padding-renive uk-float-right" id="new">
+                        <div class="uk-width-1-1 uk-margin-remove uk-padding-remove" id="head_new_rekomendasi">
+                            <span class="uk-text-bold">Source Code Baru</span><span class="uk-float-right"><a href="#"
+                                    class="uk-button uk-button-text">Lihat Semua Product</a></span>
+                        </div>
+                        <div class="uk-width-1-1 uk-margin-remove uk-padding-remove" id="body_new">
+                            <div class="uk-child-width-1-2 uk-child-width-1-6@s uk-padding-remove uk-margin-small-top">
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined"
+                                                        data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular"
+                                                            data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span
+                                                        id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined"
+                                                        data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular"
+                                                            data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span
+                                                        id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined"
+                                                        data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular"
+                                                            data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span
+                                                        id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined" data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail" class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart" class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular" data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined"
+                                                        data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular"
+                                                            data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span
+                                                        id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-float-left bodyProduk">
+                                    <div>
+                                        <div class="produk uk-border-rounded">
+                                            <div class="gambar_produk uk-border-rounded uk-clearfix"
+                                                style="background-image: url('img/produk/produk1.png'); position: relative;">
+                                                <span class="uk-label uk-float-left" id="discount-gambar">Discount</span>
+                                                <a href="http://localhost/ecommerce_fun/wishlist.html"
+                                                    class="uk-rounded uk-border-circle uk-float-right" id="add-wishlist">
+                                                    <span class="iconify" data-icon="ant-design:heart-outlined"
+                                                        data-inline="false"></span>
+                                                </a>
+                                                <span class="viewcart_produk"></span>
+                                                <span
+                                                    class="uk-padding-small uk-padding-remove-vertical uk-display-block uk-width-1-1 uk-text-center uk-animation-slide-bottom viewcart_produk">
+                                                    <a href="http://localhost/produk_detail"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="carbon:view" data-inline="false"></span>
+                                                    </a>
+                                                    <a href="http://localhost/produk_cart"
+                                                        class="uk-padding-small uk-padding-remove-vertical">
+                                                        <span class="iconify" data-icon="fluent:cart-24-regular"
+                                                            data-inline="false"></span>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <a href="#" class="uk-width-1-1 uk-margin-small-top uk-padding-remove uk-overflow-hidden">
+                                                <h6 class="uk-card-title uk-padding-remove uk-margin-remove uk-padding-remove">FUN
+                                                    Cashier</h6>
+                                                <div class="uk-margin-remove uk-padding-remove uk-padding-remove"><span
+                                                        id="diskon">Rp.420.000</span>
+                                                    <span id="harga">Rp.200.000</span>
+                                                </div>
+                                                <div class="jstars" data-value="3.5" data-color="#33B0E5" data-size="18px"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-padding-large white uk-padding-remove-top" id="footer">
+                <div class="uk-padding uk-background-secondary uk-margin-remove uk-child-width-1-5@s" uk-grid>
+                    <div class="uk-padding">
+                        <img class="uk-padding-remove uk-margin-remove" src="img/web/logo_grey_txt.png"
+                            alt="Logo Fun Technology" id="logo-fun" />
+                        <p class="uk-text-small">
+                            Jasa Pembuatan Web App & Mobile App
+                        </p>
+                        <h6 class="uk-text-bold white">Support:</h6>
+                        <img class="uk-padding-remove uk-margin-remove" src="img/web/midtrans-logo.png"
+                            alt="Logo Midtrans">
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Tautan Langsung</h5>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove">
+                            <li><a href="#" class="uk-button uk-button-text">Website</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Tautan Langsung</h5>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove">
+                            <li><a href="#" class="uk-button uk-button-text">Tentang Kami</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Kontak Kami</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Aturan Penggunaan</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Aturan Privasi</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Kebijakan Pengembalian</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Ikuti Kami</h5>
+                        <div class="uk-padding-remove uk-margin-remove uk-child-width-1-5" uk-grid>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="bx:bxl-instagram-alt"
+                                        data-inline="false"></span></a>
+                            </div>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="akar-icons:youtube-fill"
+                                        data-inline="false"></span></a>
+                            </div>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="akar-icons:linkedin-fill"
+                                        data-inline="false"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Kontak Kami</h5>
+                        <p class="white uk-margin-remove-top uk-text-small">Jalan Petek no. 18 Kel. Purwosari, Kec.
+                            Semarang Utara,
+                            Kota Semarang , Jawa Tengah.</p>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove uk-text-small">
+                            <li>Senin - Jumat 08:30 - 16:30 WIB</li>
+                            <li>Sabtu 08:00 - 14:00 WIB</li>
+                            <li>Minggu 08:00 - 12:00 WIB (Service)</li>
+                        </ul>
+                        <p class="uk-text-small">E-mail: cs@funtechnology.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-visible uk-hidden@s uk-width-1-1 menuMobileBottom uk-padding-small uk-padding-remove-vertical">
+        <div class="uk-margin-remove uk-padding-remove uk-child-width-expand" uk-grid>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="http://localhost/ecommerce_fun/" class="uk-display-block"><span class="iconify"
+                        data-icon="bx:bx-home-alt" data-inline="false"></span><br>Home</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#kategori_pad" class="uk-display-block" uk-toggle><span class="iconify"
+                        data-icon="codicon:list-selection" data-inline="false"></span><br>kategori</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#" class="uk-display-block"><span class="iconify" data-icon="jam:shopping-cart"
+                        data-inline="false"></span><br> Cart</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#" class="uk-display-block"><span class="iconify" data-icon="line-md:account"
+                        data-inline="false"></span><br> Akun</a>
+            </div>
+        </div>
+    </div>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/uikit-icons.min.js"></script>
+    <script src="vendor/jstars/jstars.min.js"></script>
+    <script src="vendor/photoGallery/fancybox/jquery.fancybox.js"></script>
+    <script src="vendor/ratingme/rating.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

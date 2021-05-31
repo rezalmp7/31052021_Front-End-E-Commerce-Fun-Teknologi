@@ -1,0 +1,396 @@
+<!-- 
+                        LIST COMMENT
+HEADER                      BODY                    FOOTER
+- icon link header          - slideshow dekstop     
+- UIkit CSS                 - slideshow mobile
+- Google Font               - flashsale
+- Style CSS                 - promo
+- icon CSS
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <!-- icon link header -->
+    <link rel="shortcut icon" href="img/web/iconified/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/web/iconified/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/web/iconified/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/web/iconified/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/web/iconified/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/web/iconified/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/web/iconified/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/web/iconified/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/web/iconified/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/web/iconified/apple-touch-icon-180x180.png" />
+
+    <!-- UIkit CSS -->
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_jqueryGallery.css">
+    <link rel="stylesheet" href="css/rating.css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/photoGallery/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="vendor/ratingme/rating.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="uk-container-expand uk-padding-remove" id="checkout">
+        <div class="uk-margin-auto-right uk-margin-auto-left">
+            <div class="uk-padding-remove uk-margin-remove"
+                uk-sticky="animation: uk-animation-slide-top; sel-target: #header; cls-active: uk-navbar-sticky black; cls-inactive: uk-navbar-transparent;"
+                id="header">
+                <div class="uk-padding-small uk-background-secondary" id="headerTop">
+                    <div class="uk-padding uk-padding-remove-vertical">
+                        <div class="uk-width-1-1 uk-inline">
+                            <span class="uk-position-center-left"><span class="label">Mon-Thu: </span>9:00 AM - 5:30 PM
+                                <i class="fas fa-chevron-down"></i></span>
+                            <div class="uk-background-secondary white jadwal uk-padding-small" uk-dropdown>
+                                <table>
+                                    <tr>
+                                        <td class="label">Mon-Thu:</td>
+                                        <td>9:00 AM - 5:30 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label">Fri-Sat:</td>
+                                        <td>9:00 AM - 4:00 PM</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <span class="uk-position-center">Kantor : Jalan Petek Nomer 18, Kelurahan Purwosari,
+                                Kecamatan Semarang Timur.</span>
+                            <span class="uk-position-center-right">Kontak : (+62) 851-5613-5202 &emsp; <a href="#"><span
+                                        class="iconify" data-icon="clarity:email-solid" data-inline="false"></span></a>
+                                &ensp; <a href="#"><span class="iconify" data-icon="carbon:logo-facebook"
+                                        data-inline="false"></span></a> &ensp; <a href="#"><span class="iconify"
+                                        data-icon="ant-design:instagram-filled" data-inline="false"></span></a></span>
+                        </div>
+                    </div>
+                </div>
+                <nav class="uk-margin-remove uk-padding-remove" id="menuDekstop">
+                    <div class="uk-padding uk-padding-remove-vertical" uk-navbar>
+
+                        <div class="uk-navbar-left" id="logo">
+                            <img class="uk-visible@s uk-padding-small uk-padding-remove-horizontal uk-padding-remove-bottom uk-margin-remove"
+                                src="img/web/logo_grey_no_txt.png" alt="Logo Fun Technology" id="logo-fun" />
+                            <a href="http://localhost/ecommerce_fun/" id="title_logo"
+                                class="uk-visible@s uk-padding-small uk-padding-remove-horizontal uk-padding-remove-bottom uk-margin-small-left uk-margin-remove-vertical">
+                                FUN<br>TEKNOLOGI<br><span>Your IT Solution</span></a>
+                            <ul class="uk-visible@m uk-child-width-1-5@l uk-width-large@l uk-navbar-nav uk-padding-remove uk-margin-small-left"
+                                id="kategori">
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:android-filled"
+                                            data-inline="false"></span><br>Android</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:apple-filled" data-inline="false"></span><br>iOS</a>
+                                </li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:windows-filled"
+                                            data-inline="false"></span><br>Windows</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="whh:website" data-inline="false"></span><br>Web</a></li>
+                                <li class="uk-button uk-padding-remove-horizontal uk-text-center"><a
+                                        class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="bi:check-all" data-inline="false"></span><br>All</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="uk-visible@s uk-margin-medium-right uk-navbar-right">
+                            <a href="#kategori_pad" class="uk-visible@s uk-hidden@m" uk-toggle><span class="iconify"
+                                    data-icon="codicon:list-selection" data-inline="false"></span></a>
+
+
+                            <div class="uk-margin">
+                                <form class="uk-search uk-search-default uk-width-medium@m">
+                                    <a href="" uk-search-icon></a>
+                                    <input class="uk-search-input" type="search" placeholder="Search">
+                                </form>
+                            </div>
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span
+                                        class="iconify" data-icon="akar-icons:heart"
+                                        data-inline="false"></span><sup><span class="uk-badge">1</span></sup></a></span>
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span
+                                        class="iconify" data-icon="jam:shopping-cart"
+                                        data-inline="false"></span><sup><span class="uk-badge">1</span></sup></a></span>
+                            <!-- <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span class="iconify" data-icon="ic:round-login" data-inline="false"></span></a></span> -->
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"
+                                    type="button"><img class="uk-border-pill" src="img/pelanggan/avatar_default.jpg"
+                                        width="27px" height="27px" alt="Border pill"></a></span>
+                            <div class="uk-padding-small akun" uk-dropdown>
+                                <h5 class="uk-margin-remove uk-text-bold">Chelsi Island</h5>
+                                <span class="uk-text-small">c.island@gmail.com</span>
+                                <hr class="uk-padding-remove uk-margin-small-top uk-margin-remove-bottom">
+                                <ul class="uk-nav uk-dropdown-nav uk-padding-remove">
+                                    <li class="uk-active"><a class="uk-padding-remove" href="#">Edit Profile</a></li>
+                                    <li><a class="uk-padding-remove" href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="kategori_pad" uk-offcanvas>
+                        <div class="uk-offcanvas-bar">
+
+                            <ul class="uk-nav uk-nav-default">
+
+                                <li><a class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:android-filled" data-inline="false"></span>
+                                        Android</a></li>
+                                <li><a class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:apple-filled" data-inline="false"></span>
+                                        iOS</a></li>
+                                <li><a class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="ant-design:windows-filled" data-inline="false"></span>
+                                        Windows</a></li>
+                                <li><a class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="whh:website" data-inline="false"></span> Web</a></li>
+                                <li><a class="uk-display-block"
+                                        href="http://localhost/ecommerce_fun/produk_search"><span class="iconify"
+                                            data-icon="bi:check-all" data-inline="false"></span> All</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <nav class="uk-hidden@s" id="menuMobile">
+                    <div class="uk-navbar-left uk-padding-small">
+                        <div class="uk-navbar-left" id="logo">
+                            <a href="http://localhost/ecommerce_fun/"><img src="img/web/logo_grey_no_txt.png"
+                                    alt="Logo Fun Technology" id="logo-fun"></a>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <form class="uk-search uk-search-default">
+                                <a href="" uk-search-icon></a>
+                                <input class="uk-search-input" type="search" placeholder="Search">
+                            </form>
+                            <span><a href="#" class="uk-display-block uk-padding-small uk-padding-remove-right"><span
+                                        class="iconify" data-icon="jam:shopping-cart"
+                                        data-inline="false"></span></a></span>
+                        </div>
+                    </div>
+                </nav>
+                <hr class="header uk-padding-remove uk-margin-remove-top uk-margin-remove-bottom">
+            </div>
+            <div class="uk-padding-large uk-clearfix" id="body">
+                <div class="uk-width-1-1" id="body_head">
+                    <h4 class="uk-padding-remove uk-margin-remove fun-poppins-semi-bold">Checkout</h4>
+                </div>
+                <div class="uk-width-1-1 uk-padding uk-padding-remove-horizontal uk-margin-remove" id="body_body">
+                    <div class="uk-padding-small uk-padding-remove-horizontal">
+                        <div class="uk-padding-small" id="body_produk_checkout">
+                            <div class="uk-padding-small uk-padding-remove-horizontal uk-width-1-1 uk-margin-remove">
+                                <div class="uk-padding-remove uk-margin-remove uk-grid-match" uk-grid>
+                                    <div class="uk-padding-remove" style="background-image: url('img/produk/produk1.png')"
+                                        id="gambar_produk_checkout"></div>
+                                    <div class="uk-width-expand uk-padding-small uk-margin-remove" id="checkout_produk_body_detail" uk-grid>
+                                        <div class="uk-width-expand uk-float-left uk-padding-remove" id="nama">
+                                            <a href="http://localhost/ecommerce_fun/produk_detail.html"
+                                                class="uk-display-block uk-padding-remove uk-margin-remove fun-poppins-semi-bold">FUN Cashier</a>
+                                            <span class="uk-visible@s uk-padding-remove uk-margin-medium-bottom uk-display-block">Development : Fun
+                                                Technology</span>
+                                        </div>
+                                        <div class="uk-width-auto@s uk-float-right uk-padding-remove uk-margin-margin-small-top uk-text-small fun-poppins-semi-bold"
+                                            id="harga">
+                                            <div class=""><span id="harga_diskon">Rp 400.000</span><span class="uk-margin-small-left"
+                                                    id="diskon">50% off</span></div>
+                                            <div class="">Rp 200.000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-padding-small uk-padding-remove-horizontal uk-width-1-1 uk-margin-remove">
+                                <div class="uk-padding-remove uk-margin-remove uk-grid-match" uk-grid>
+                                    <div class="uk-padding-remove" style="background-image: url('img/produk/produk1.png')"
+                                        id="gambar_produk_checkout"></div>
+                                    <div class="uk-width-expand uk-padding-small uk-margin-remove" id="checkout_produk_body_detail" uk-grid>
+                                        <div class="uk-width-expand uk-float-left uk-padding-remove"
+                                            id="nama">
+                                            <a href="http://localhost/ecommerce_fun/produk_detail.html" class="uk-display-block uk-padding-remove uk-margin-remove fun-poppins-semi-bold">FUN Cashier</a>
+                                            <span class="uk-visible@s uk-padding-remove uk-margin-medium-bottom uk-display-block">Development : Fun Technology</span>
+                                        </div>
+                                        <div class="uk-width-auto@s uk-float-right uk-padding-remove uk-margin-margin-small-top uk-text-small fun-poppins-semi-bold"
+                                            id="harga">
+                                            <div class=""><span id="harga_diskon">Rp 400.000</span><span class="uk-margin-small-left"
+                                                    id="diskon">50% off</span></div>
+                                            <div class="">Rp 200.000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr style="border-top: 1px solid black">
+                            <div class="uk-width-1-1 uk-clearfix" id="bayar">
+                                <div class="uk-width-1-3@s uk-float-right fun-poppins uk-text-small black uk-clearfix uk-padding-remove uk-margin-remove">
+                                    <div class="uk-width-1-1 uk-padding-remove uk-margin-remove" uk-grid>
+                                        <div class="uk-width-1-2 uk-text-right uk-padding-remove uk-margin-remove">
+                                            Jumlah Bayar: 
+                                        </div>
+                                        <div class="uk-width-1-2 uk-text-right uk-padding-remove uk-margin-remove">
+                                            Rp 265.000
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-1 uk-padding-remove uk-margin-remove" uk-grid>
+                                        <div class="uk-width-1-2 uk-text-right uk-padding-remove uk-margin-remove">
+                                            Metode:
+                                        </div>
+                                        <div class="uk-width-1-2 uk-text-right uk-padding-remove uk-margin-remove">
+                                            BRI Virtuan Account
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-1 uk-padding-remove uk-text-right uk-margin-small-top">
+                                        <div id="label">
+                                            Virtual Account
+                                        </div>
+                                        <div class="fun-poppins-semi-bold" id="virtual-account">
+                                            864480423741579901
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-1 uk-text-right">
+                                        <div class="uk-padding-small-left uk-margin-remove uk-display-inline">
+                                            <a href="#" class="uk-button uk-button-primary uk-button-small">Bayar Sekarang</a>
+                                        </div>
+                                        <div class="uk-padding-small-left uk-margin-remove uk-display-inline">
+                                            <a href="#" class="uk-button uk-button-primary uk-button-small">Panduan Pembayaran</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-padding-large white uk-padding-remove-top" id="footer">
+                <div class="uk-padding uk-background-secondary uk-margin-remove uk-child-width-1-5@s" uk-grid>
+                    <div class="uk-padding">
+                        <img class="uk-padding-remove uk-margin-remove" src="img/web/logo_grey_txt.png"
+                            alt="Logo Fun Technology" id="logo-fun" />
+                        <p class="uk-text-small">
+                            Jasa Pembuatan Web App & Mobile App
+                        </p>
+                        <h6 class="uk-text-bold white">Support:</h6>
+                        <img class="uk-padding-remove uk-margin-remove" src="img/web/midtrans-logo.png"
+                            alt="Logo Midtrans">
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Tautan Langsung</h5>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove">
+                            <li><a href="#" class="uk-button uk-button-text">Website</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Tautan Langsung</h5>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove">
+                            <li><a href="#" class="uk-button uk-button-text">Tentang Kami</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Kontak Kami</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Aturan Penggunaan</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Aturan Privasi</a></li>
+                            <li><a href="#" class="uk-button uk-button-text">Kebijakan Pengembalian</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Ikuti Kami</h5>
+                        <div class="uk-padding-remove uk-margin-remove uk-child-width-1-5" uk-grid>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="bx:bxl-instagram-alt"
+                                        data-inline="false"></span></a>
+                            </div>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="akar-icons:youtube-fill"
+                                        data-inline="false"></span></a>
+                            </div>
+                            <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical">
+                                <a href="#"><span class="iconify uk-width-1-1" data-icon="akar-icons:linkedin-fill"
+                                        data-inline="false"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-padding">
+                        <h5
+                            class="uk-text-bold white uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top uk-margin-remove">
+                            Kontak Kami</h5>
+                        <p class="white uk-margin-remove-top uk-text-small">Jalan Petek no. 18 Kel. Purwosari, Kec.
+                            Semarang Utara,
+                            Kota Semarang , Jawa Tengah.</p>
+                        <ul class="uk-list uk-list-collapse uk-margin-remove uk-text-small">
+                            <li>Senin - Jumat 08:30 - 16:30 WIB</li>
+                            <li>Sabtu 08:00 - 14:00 WIB</li>
+                            <li>Minggu 08:00 - 12:00 WIB (Service)</li>
+                        </ul>
+                        <p class="uk-text-small">E-mail: cs@funtechnology.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-visible uk-hidden@s uk-width-1-1 menuMobileBottom uk-padding-small uk-padding-remove-vertical">
+        <div class="uk-margin-remove uk-padding-remove uk-child-width-expand" uk-grid>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="http://localhost/ecommerce_fun/" class="uk-display-block"><span class="iconify"
+                        data-icon="bx:bx-home-alt" data-inline="false"></span><br>Home</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#kategori_pad" class="uk-display-block" uk-toggle><span class="iconify"
+                        data-icon="codicon:list-selection" data-inline="false"></span><br>kategori</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#" class="uk-display-block"><span class="iconify" data-icon="jam:shopping-cart"
+                        data-inline="false"></span><br> Cart</a>
+            </div>
+            <div class="uk-padding-remove uk-text-center fun-poppins-semi-bold">
+                <a href="#" class="uk-display-block"><span class="iconify" data-icon="line-md:account"
+                        data-inline="false"></span><br> Akun</a>
+            </div>
+        </div>
+    </div>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/uikit-icons.min.js"></script>
+    <script src="vendor/jstars/jstars.min.js"></script>
+    <script src="vendor/photoGallery/fancybox/jquery.fancybox.js"></script>
+    <script src="vendor/ratingme/rating.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
